@@ -39,7 +39,7 @@
               <Div class="collapse navbar-collapse " id="navbar">
                
         <ul class="navbar-nav d-flex justify-content-center flex-column flex-md-row list-unstyled " >
-          <li class="nav-item active border-bottom-color"><a href="index.html">Pocetna</a></li>
+          <li class="nav-item active border-bottom-color"><a href="index.php">Pocetna</a></li>
             <li class="nav-item active border-bottom-color"><a href="o_nama.html" >O nama</a></li>
             <li class="nav-item border-bottom-color"><a href="Prodavnica.html">Prodavnica</a></li>
             <li class="nav-item border-bottom-color"><a href="kontakt.html">Kontakt</a></li>
@@ -67,16 +67,28 @@
       <hr class="mx-3">
   </Div>
   </section>
-  <section class="form_block">
-    <form action="https://formsubmit.co/dndjuric73@gmail.com" method="post">
+  <section class="form_block ">
+    <div class="wrapp w-75 m-auto d-flex justify-content-center">
+    <form action="https://formsubmit.co/dndjuric73@gmail.com" method="post" class=" d-inline-flex w-100 flex-column ">
+      
       <input type="hidden" name="_subject" value="New email woo">
+      <div class="input_block">
       <label>E-mail adresa</label>
       <input type="email" name="email" required>
+    </div>
+    <div class="input_block">
       <label>Ime</label>
       <input type="text" name="Ime" required>
+    </div>
+    <div class="input_block">
       <label>Tekst</label>
       <input type="text" name="tekst" required>
+    </div>
+    <div class="button_block">
+      <button type="submit">Send</button>
+    </div>
     </form>
+  </div>
   </section>
     <footer >
         <div class="border1">
